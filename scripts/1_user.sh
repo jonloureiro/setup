@@ -23,8 +23,8 @@ cd ..
 cat > qtile.sh <<EOF
 #!/usr/bin/env sh
 
-. ./qtile/venv/bin/activate
-python ./qtile/bin/qtile $*
+. $(pwd)/qtile/venv/bin/activate
+python3 $(pwd)/qtile/bin/qtile \$*
 EOF
 chmod +x qtile.sh
 

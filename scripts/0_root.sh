@@ -6,11 +6,11 @@ nala install git \
              curl \
              python3-pip \
              pipx \
-             build-essential \      # ly
-             libpam0g-dev \         # ly
-             libxcb-xkb-dev \       # ly
-             xserver-xorg \         # qtile
-             libwlroots-dev \       # qtile
-             libxkbcommon-dev \     # qtile
-             libpangocairo-1.0-0 \  # qtile
+             build-essential \
+             libpam0g-dev \
+             libxcb-xkb-dev \
+             xserver-xorg \
+             libwlroots-dev \
+             libxkbcommon-dev \
+             libpangocairo-1.0-0 \
              flatpak
